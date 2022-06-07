@@ -10,3 +10,4 @@ Dentre os arquivos existentes tem-se:
 7. valida_cpf_esp01_serial.ino - simulação do sistema de comunicação: código utilizado no Arduino UNO para validar o CPF, e caso válido, enviar a String do CPF via comunicação serial para o esp8266-01;
 8. fire_base_esp01.ino - simulação do sistema de comunicação: código utilizado no esp8266-01 para ler a serial e executar a comunicação com o banco de dados Firebase via WiFi;
 9. leitura_pos_calibracao.ino - simulação final: após realizar a calibração, esse código realiza a simulação geral do sistema, incluindo célula de carga, módulo HX711, sensor de presença indutivo, esp8266-01.
+10. app.rar - aplicativo desenvolvido na linguagem python com comuninicação com banco de dados.
